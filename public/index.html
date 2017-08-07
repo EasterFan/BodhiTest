@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title content="思沃影院 不负好时光"></title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
+    <!--pace-->
+    <link rel="stylesheet" href="lib/pace/themes/red/pace-theme-flash.css">
+    <script src="lib/pace/pace.min.js"></script>
+    <!--引用库的文件-->
+    <link rel="stylesheet" href="lib/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="lib/jquery-3.1.1.min/jquery-3.1.1.min.js"></script>
+    <script src="lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="lib/layer/layer.js"></script>
+    <script src="lib/laypage/laypage.js"></script>
+    <script src="lib/template/template.js"></script>
+    <!--app入口文件-->
+    <script data-main="./js/master.js"  src="lib/require/require.js"></script>
+
+    <!--自定义css文件与js文件-->
+    <!--base文件为基本样式库,勿动-->
+    <link rel="stylesheet" href="css/base.css">
+
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">菩提老祖</a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav">
+                <li><a href="#page/page1">页面1</a></li>
+                <li><a href="#page/page2">页面2</a></li>
+                <li><a href="#page/page3">页面3</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="content"></div>
+</body>
+
+<!--公共页面模板-->
+<script type="text/html" id="tplPage">
+    <h1>{{title}}</h1>
+</script>
+
+</html>
